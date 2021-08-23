@@ -29,13 +29,12 @@ public class Main {
         Random r = new Random();
         ArrayList<Password> password = new ArrayList<>();
         System.out.println("REMEMBER: The platform names don't mean anything, just placeholders.");
-        // Fuck this for loop for giving me hours of pain and suffering. :D
         for (int i = 0; i < 100; i++) {
-            Generator generator = new Generator(); // This was needed to solve my problems. If messy, too bad!
+            Generator generator = new Generator(); 
             Password paw = generator.generate(10, platforms[r.nextInt(platforms.length)]);
             password.add(paw);
-            // Paw is quite a weird name for this. Why not call it pw?
         }
+        
         System.out.println("--------------------------------");
     }
 
