@@ -13,6 +13,6 @@ public class Password {
     }
 
     // I had getters, but they weren't used and the warning thing was annoying, so I deleted them.
-    // I have no other warnings (besides those i disabled because Intellij.
+    // I have no other warnings (besides those i disabled because Intellij).
     // My apologies.
 }
